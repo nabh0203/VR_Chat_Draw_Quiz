@@ -66,12 +66,8 @@ public class QuizHost : UdonSharpBehaviour
         quizInputField.gameObject.SetActive(true);
     }
 
-    //public void OnPlayerTriggerEnter(Collider other)
-    //{
-    //        Debug.Log("a");
-    //}
     // 문제를 입력하는 메서드
-    public void OnAAA()
+     public void OnAAA()
     {
         if (isHostActive)
         {
