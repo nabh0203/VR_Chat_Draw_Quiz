@@ -1,6 +1,4 @@
-﻿
-using UdonSharp;
-using UnityEditor.PackageManager.Requests;
+﻿using UdonSharp;
 using UnityEngine;
 using UnityEngine.UI;
 using VRC.SDKBase;
@@ -31,9 +29,9 @@ public class Register : UdonSharpBehaviour
     //Name 교체 함수
     public void OnNameChanged(string name)
     {
-        foreach(Text text in nameTexts)
+        foreach (Text text in nameTexts)
         {
-            text.text= name;
+            text.text = name;
 
             //아래 두개처럼 Player 의 정보를 가져올때 사용한다.
             //player = Networking.LocalPlayer;
